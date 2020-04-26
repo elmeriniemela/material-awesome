@@ -64,7 +64,7 @@ local globalKeys =
     {},
     'Print',
     function()
-      awful.util.spawn_with_shell('maim -s | xclip -selection clipboard -t image/png')
+      awful.util.spawn_with_shell('flameshot gui')
     end
   ),
   -- Standard program
